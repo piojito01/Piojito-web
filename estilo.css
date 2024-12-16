@@ -50,3 +50,57 @@ footer {
     border-top: 1px solid #444;
     margin-top: 20px;
 }
+
+/* seccioncomentario */
+
+.anotacion {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: rgba(44, 47, 51, 0.9);
+    padding: 10px;
+    border-radius: 10px; /* Bordes redondeados */
+    color: #ffffff;
+    display: none; /* Oculto por defecto */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    transition: all 0.3s ease;
+    display: flex; /* Para layout de flexbox */
+    align-items: center; /* Centrar la imagen y el texto verticalmente */
+}
+
+.anotacion .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; /* Redondeo total para simular una imagen de perfil */
+    margin-right: 10px;
+}
+
+.anotacion .texto {
+    flex: 1; /* Permitir que el texto ocupe todo el espacio disponible */
+}
+
+.anotacion p {
+    margin: 0;
+    font-size: 1.1em;
+}
+
+#cerrarAnotacion {
+    background-color: #ffcc00;
+    color: #000000;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 0.9em;
+    margin-top: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#cerrarAnotacion:hover {
+    background-color: #ffaa00;
+}
+
+#nombre {
+    font-weight: bold;
+}

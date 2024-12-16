@@ -6,6 +6,43 @@
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
+
+
+<div id="anotacion" class="anotacion">
+    <img src="imagen.jpeg" alt="Piojito" class="avatar">
+    <div class="texto">
+        <p id="nombre">Piojito</p>
+        <p>¡Hey! Piojito reportándose. <br>
+Estuve un tiempo fuera, pero ya volví con doble capítulo para compensar la espera.<br>
+¡Pronto subiré más, así que estén atentos! <br>
+Cambio y fuera. <br>
+xxoo</p>
+        <button id="cerrarAnotacion">Cerrar</button>
+    </div>
+</div>
+
+
+
+
+<script>
+    
+document.addEventListener("DOMContentLoaded", function() {
+    var anotacion = document.getElementById("anotacion");
+    var cerrarButton = document.getElementById("cerrarAnotacion");
+
+    // Mostrar la anotación al cargar la página
+    anotacion.style.display = "block";
+
+    // Cerrar la anotación cuando el botón sea clickeado
+    cerrarButton.onclick = function() {
+        anotacion.style.display = "none";
+    };
+});
+
+
+
+</script>
+
     <main class="container">
         <section class="post full">
             <h1>Conociendo</h1>
@@ -17,10 +54,11 @@ De esas que se buscan, aunque a veces se pierdan.<br>Así lo sentía, o al menos
 Eran momentos que atesoraba como quien guarda monedas en un frasco, porque ahí, podía estar con el abuelo Lucho.<br>
 Lucho era un personaje. Alcohólico, y desprolijo, una irresponsabilidad andante, pero lo quería, lo quería tanto que ni se le cruzaba cambiarlo por nada. <br>
 
-Porque era así, como era, y quizás eso era lo que más le gustaba de él. </p> 
+Porque era así, y quizás eso era lo que más le gustaba de él. </p> 
 
 <p>Después de las caminatas y las zarandeadas que Lucho se mandaba <i>—que si no la hacía reír, era de otra manera—</i>llegaba la noche. <br>
-La brisa fría quedaba atrás, un recuerdo que se gastaba, y ahí estaba Marta, su abuela, con las medialunas recién hechas y el té con leche. <br>
+La brisa fría quedaba atrás, un recuerdo que se gastaba. <br>
+Y ahí estaba Marta, su abuela, con las medialunas recién hechas y el té con leche. <br>
 Marta era así: simple, detallista, pero con esa mirada filosa que parecía adivinarlo todo.<br>
 Ella vivía con ellos.<br>
 Lo sabía todo el mundo, pero nadie entendía cómo lograban salir adelante, tan a su manera, sin nada que pareciera importante desde afuera.<br>
@@ -35,18 +73,18 @@ Nadie la veía, claro, y si se lo mencionaba a alguien, la miraban raro. <br>
 Pero era real. A su manera, lo era. <br>
 Y en el fondo, estaba segura; nadie podía quitarle a su mejor amiga. </p>
     </main>
-    <section 
- <main class="container">
+    <section main class="container">
         <section class="post full">
             <h1>Mejor Amiga</h1>
             <p class="date">29 de Noviembre. 2024</p>
             <p id="esti">Y, como todo lo bueno, tenía que acabarse. <br>
                         Cuando el abuelo Lucho agarraba el volante, no era la mejor idea, pero nadie se atrevía a decirle nada. <br>
-                         Ella se limitaba a mirar por la ventana, perderse en ese atardecer. Con esos colores que le llenaban el pecho, aunque nunca supiera por qué. 
+                         Le gustaba mirar por la ventana, perderse en ese atardecer. <br>
+                         Con esos colores que le llenaban el pecho, aunque nunca supiera por qué. 
                          <p>De fondo sonaba la música. <br>
                          Esa música de <i>"gente grande"</i> como decía él, con las bocinas medio rotas del auto y un ritmo que le resultaba odioso. <br>
                          Pero en el fondo, aunque no lo admitiera, esas canciones iban a quedar pegadas en su memoria.
-                         <p>Las visitas a la casa de su tía eran otra cosa. Pocas, contadas con los dedos de una mano. <br> Y gracias, no le gustaba estar ahí. Algo en esa casa que la incomodaba. <br>
+                         <p>Las visitas a la casa de su tía eran otra cosa. Pocas, contadas con los dedos de una mano. <br> Y gracias, no le gustaba estar ahí. Habia algo en esa casa que la incomodaba. <br>
                          Por eso, siempre hacía lo mismo. <br>
                          Se escabullía hasta el mural del patio, que solo ella conocía. <br>
                          Allí, con su mejor amiga, el tiempo pasaba distinto. <br>
@@ -55,7 +93,7 @@ Y en el fondo, estaba segura; nadie podía quitarle a su mejor amiga. </p>
                          Nunca.
 
                          <p>Y entonces apareció su primo, como siempre, de la nada y con esos modos tan de él que la hacían saltar del susto. <br>
-                         Qué haces? — <br>
+                         ¿Qué haces? — <br>
                          Le largó, como si tuviera derecho a saberlo todo. <br>
                          — Acá, escribiendo un libreto. <br>
                          Por dentro se maldecía una y otra vez. ¿Por qué siempre tenía que darle explicaciones? <br>
@@ -81,15 +119,94 @@ Y en el fondo, estaba segura; nadie podía quitarle a su mejor amiga. </p>
                         De tal palo, a tal astilla — <br>
                         Comentó su amiga, burlona. Siempre la desconcertaba. <br>
                         Ella negó con la cabeza, medio resignada, y apuró el paso para alcanzarlo. 
+                      <i><p> Había cosas que no iba a entender nunca.</p></i>                             
+                               </main>
+       
+                    </section>
 
-                        <i><p> Había cosas que no iba a entender nunca.</p></i>
+                    <section main class="container">
+        <section class="post full">
+            <h1>Simpleza</h1>
+            <p class="date">16 de Diciembre. 2024
+            <p id="esti"> 
+                <p> Esa mañana fue rara, incluso dentro de lo raro que ya era su vida. <br>
+                Como siempre, desayunaba con su abuela Marta. <br>
+                El abuelo Lucho, fiel a las botellas frías, dormía hasta el mediodía. <br>
+                Buen día — <br>
+                Dijo, saludando, y su amiga, siempre presente, también hizo su gesto. <br>
+                Marta les devolvió el saludo sin pestañear.<br>
+                Nunca preguntaba nada, nunca hacía un comentario fuera de lugar, pero estaba claro que la veía. <br>
+                Es más, parecía hasta alegrarse de que su nieta tuviera compañía, aunque fuera invisible para los demás.
+                <p> Por otro lado, la panadería era de un conocido que aparecía poco y nada. <br>
+                Ella, al final, era la que se encargaba de todo. <br>
+                Cada mañana, con un café a medio tomar y la radio de fondo, cantaba esas canciones románticas que llenaban el local. <br>
+                Las escuchaba como si alguien se las cantara al oído, y por un rato, se sentía querida.</p>
+                <p>Ay, ¡soy como la zapatilla de Cenicienta! — <br>
+                Bromeaba. <br>
+                 — Acá no hay espacio para nadie más. <br>
+                Y aunque el local era chico, los clientes lo llenaban con sus risas. <br>
+                Sabían cuándo llegar, la hora exacta en que los panes salían del horno, todavía tibios, con ese aroma que se colaba por las calles. 
+                <p>La saludaban con alegría, porque no había pan como el suyo, y eso la llenaba de orgullo. <br>
+                Claro que no todo era tan simple. <br>
+                Había quienes la miraban raro, susurraban entre dientes que hablaba sola, que algo no andaba bien con ella. <p>Pero no le importaba.<p>
+                Además, los mejores clientes no se iban por chismes. <br>
+                Eran de esos que te saludaban en la calle, que charlaban con su abuelo Lucho mientras compartían unas birras en la esquina.  <br>
+                De esos que te hacían sentir que, al menos, las cosas estaban bien. <br>
+                <p><i>Y eso era suficiente.</i></p>
+                     </selection>
 
- 
+                                </main>
+       
+                    </section>
 
-          
+                    <section main class="container">
+        <section class="post full">
+            <h1>Raro</h1>
+            <p class="date">16 de Diciembre. 2024
+            <p id="esti"> 
+            <p>Ese día estaba en la orilla del mar. <br>
+            La gente caminaba de acá para allá, desparramada por la playa como pájaros que revolotean.
+            <p>Pero también estaban ellos. <br>
+            Ellos eran distintos. Siempre lo habían sido. <br>
+            Eran los que más parecían disfrutar de todo, aunque nunca entendía bien por qué.
+            <p>A veces, por pura curiosidad, les hacia preguntas. <br>
+            ¿Por qué disfrutan más la vida? —<br>
+            Se animó una vez. <br>
+            —  Porque la vida es mejor cuando entendés que no hace falta vivirla. <br>
+            Le dijo uno. <br>
+            Y ahí se quedaba, con más preguntas que respuestas.
+            <p>No insistía, porque sabía que no le iban a decir más. Eran así, misteriosos. <br>
+            Quizás por eso le gustaba tanto mirarlos. 
+            <p>Después estaban los otros. <br>
+           Esos eran otra cosa. Más que raros. <br>
+           Y no raros de <i>"qué curioso"</i> sino raros de verdad.
+           <p>Una vez vio un perro que seguía a un esqueleto, como si fuera la cosa más normal del mundo. <br>
+           Le daba vueltas, olisqueaba sus piernas como si fueran carne fresca. <br>
+           Quizás lo eran. <br>
+           Ella, en su cabeza, se imaginó al perro diciendo: <i>"Capaz que están deliciosas"</i></p>
+           <p>Pero lo raro de los otros no era lo que hacían, sino lo que eran. <br>
+           Muchos ni siquiera tenían forma. Eran algo, un algo que no sabía describir.
+           <p>Una vez se animó a hablarle a uno. <br>
+          ¿Tenés nombre? —
+          Le preguntó. <br>
+          El otro la miró, o algo parecido a mirarla. <br> 
+          — No. Me olvidé.<br>
+         Ahí entendió que no quería seguir la charla. <br>
+        Hablar con alguien que parecía más perdido que ella, no era algo que le hiciera gracia.
+        <p> Se levantó, sacudió la arena de los pantalones y se fue. <br>
+      <i>Che, ¿quién diría que hay alguien más raro que yo? ¡De no creer! — </i> <br>
+       Murmuró a su amiga, quien se encogió de hombros. <p>
+       	<p><i>Estaba más loca que ella.</i></p></p>
+        
 
 
-          </section> 
+
+
+
+             </selection>
+
+       
+
 
       <div id="disqus_thread"></div>
 <script>
